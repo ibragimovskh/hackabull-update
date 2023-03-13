@@ -267,9 +267,23 @@ h3 {
 }
 
 /* Resize large sponsors to 30px height on mobile */
-@media (max-width: 576px) {
+@media (max-width: 576px){
   .img-fit {
     height: 50px;
+  }
+}
+
+/* Resize schedule to 50px height on tablet */
+@media (max-width: 768px) {
+  .img-fit-sc {
+    height: 400px!important;
+  }
+}
+
+/* Resize schedule to 30px height on mobile */
+@media (max-width: 520px){
+  .img-fit-sc {
+    height: 350px!important;
   }
 }
 
@@ -313,7 +327,7 @@ h4 {
 
 .sponsor img{ 
   height: 100px;
-  margin: 30px;
+  margin: 10px;
   /* width: 100px; */
 
 }
@@ -327,5 +341,6 @@ h4 {
 }
 
 .cockroach-text {
+  font-family: "Lilita One", sans-serif;
   font-size: 2em;;
 }
